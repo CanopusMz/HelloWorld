@@ -4,9 +4,9 @@ var HelloWorld = /** @class */ (function () {
         this.lastName = lastName;
     }
     HelloWorld.prototype.sayHello = function () {
-        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName + '.');
     };
     return HelloWorld;
 }());
-var myHelloClassInstance = new HelloWorld('Suhail', 'Mazi.');
+var myHelloClassInstance = new HelloWorld('Suhail', 'Mazi');
 myHelloClassInstance.sayHello();

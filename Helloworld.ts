@@ -6,9 +6,9 @@ class HelloWorld {
     }
 
     sayHello() {
-        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName + '.');
     }
 } 
 
-const myHelloClassInstance = new HelloWorld('Suhail', 'Mazi.');
+const myHelloClassInstance = new HelloWorld('Suhail', 'Mazi');
 myHelloClassInstance.sayHello();
